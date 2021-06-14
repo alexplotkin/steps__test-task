@@ -19,7 +19,7 @@ import { COMMENTS_API_URL } from '../../constants'
 import './styles.scss'
 
 const ENTITY_NAME = 'comments'
-const PER_PAGE = 10
+const PER_PAGE = 20
 
 const CommentList = () => {
 
