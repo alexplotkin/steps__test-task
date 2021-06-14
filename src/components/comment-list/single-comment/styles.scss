@@ -1,0 +1,30 @@
+.single-comment__wrapper {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.single-comment__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.single-comment__avatar {
+  border-radius: 50%;
+}
+
+.single-comment__content__bio {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.single-comment__content__email,
+.single-comment__content__name {
+  max-width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
